@@ -1,0 +1,148 @@
+:root{
+    --blue: #2e3376;
+    --red: #c83c48;
+    --darkerRed: #8a242d;
+    --green: #4a7337;
+    --nude: #fbe3cc;
+    --lighterNude: #fdf3eb;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.nav-form {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-form li{
+    margin-top: 25px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--nude);
+    border-right: 2px solid black;
+    width: 100px;
+}
+
+.outlet-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.aboutme-container h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.aboutme-container p{
+    font-size: 28px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.contactme-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: var(--lighterNude);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.input{
+    width: 200px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit-button-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.submit-button p{
+    margin: 5px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--nude);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.project-h2{
+    align-self: center;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project-container{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--lighterNude);
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
